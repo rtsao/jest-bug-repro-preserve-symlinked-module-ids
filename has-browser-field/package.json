@@ -1,0 +1,8 @@
+{
+  "name": "has-browser-field",
+  "version": "0.0.0-monorepo",
+  "browser": "index.js",
+  "dependencies": {
+    "needs-preserved-id": "0.0.0-monorepo"
+  }
+}

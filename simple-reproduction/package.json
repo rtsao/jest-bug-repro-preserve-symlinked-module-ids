@@ -1,0 +1,25 @@
+{
+  "name": "simple-reproduction",
+  "version": "0.0.0-monorepo",
+  "dependencies": {
+    "needs-preserved-id": "0.0.0-monorepo",
+    "has-browser-field": "0.0.0-monorepo",
+    "jest": "^25.1.0"
+  },
+  "scripts": {
+    "test": "jest"
+  },
+  "jest": {
+    "projects": [
+      {
+        "name": "node",
+        "testEnvironment": "node"
+      },
+      {
+        "name": "browser",
+        "browser": true,
+        "testEnvironment": "jsdom"
+      }
+    ]
+  }
+}

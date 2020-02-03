@@ -1,0 +1,5 @@
+dependencies:
+  needs-preserved-id: 'link:../needs-preserved-id'
+lockfileVersion: 5.1
+specifiers:
+  needs-preserved-id: 0.0.0-monorepo
